@@ -1,0 +1,15 @@
+.sort-panel {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	background: rgb(189, 189, 189);
+	padding: 35px 26px 0 20px;
+	width: 152px;
+	min-height: 100vh;
+
+	&__title {
+		font-size: 12px;
+		line-height: 14px;
+		color: black;
+	}
+}

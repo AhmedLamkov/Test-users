@@ -1,0 +1,32 @@
+.user-profile{
+	width: 100%;
+	padding: 13px 45px 13px 48px;
+
+	&__block {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+
+	&__title {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	&__form {
+		display: flex;
+    flex-direction: column;
+		padding: 20px 12px;
+		border: 1px solid rgb(243, 243, 243);
+		border-radius: 8px;
+	}
+
+	&.active {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		background: rgb(255, 255, 255);
+		padding: 19px 41px 0 34px;
+	}
+}

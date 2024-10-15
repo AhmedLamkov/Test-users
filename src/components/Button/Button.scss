@@ -1,0 +1,33 @@
+.regular {
+	cursor: pointer;
+	font-size: 12px;
+	line-height: 14px;
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+	padding: 5px 12px;
+	border: none;
+
+	&:disabled {
+		background: rgb(175, 175, 175);
+	}
+}
+
+.large {
+	cursor: pointer;
+	font-size: 12px;
+	line-height: 14px;
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+	padding: 6px 11px;
+	border: none;
+}
+
+.blue {
+	background: rgb(75, 81, 239);
+}
+
+.green {
+	margin-top: 19px;
+	margin-left: auto;
+	background: rgb(82, 207, 79);
+}

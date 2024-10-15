@@ -1,0 +1,35 @@
+.user {
+	cursor: pointer;
+
+	&__content {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		padding: 10px;
+		background: rgb(243, 243, 243);
+		margin-bottom: 15px;
+	}
+
+	&__text {
+		display: flex;
+		column-gap: 7px;
+		margin-bottom: 8px;
+	}
+
+	&__description {
+		font-size: 11px;
+		line-height: 13px;
+		color: rgb(163, 163, 163);
+	}
+
+	&__name {
+		font-size: 11px;
+		line-height: 13px;
+	}
+
+	&__details {
+		font-size: 12px;
+		line-height: 14px;
+		color: rgb(75, 81, 239);
+	}
+}
